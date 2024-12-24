@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Form</title>
+    <style>
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+            margin: auto;
+        }
+        .form-container label {
+            margin-bottom: 5px;
+        }
+        .form-container input {
+            margin-bottom: 15px;
+            padding: 8px;
+            width: 100%;
+        }
+        .form-container button {
+            padding: 10px;
+            background-color: #970d0d;
+            color: rgb(238, 166, 166);
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" placeholder="Enter your city">
+
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" name="pincode" placeholder="Enter your pincode">
+
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>
