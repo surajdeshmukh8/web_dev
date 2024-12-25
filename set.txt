@@ -1,0 +1,23 @@
+ "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 1,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotVerifyTags": true,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "branch-create:command",
+        "switch:command"
+    ],
+    "gitlens.views.branches.branches.layout": "list",
+    "redhat.telemetry.enabled": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editor.enablePreview": false
