@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css variables
+
+    </title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            background-color: azure;
+        }
+        
+         :root {
+            --color: red
+        }
+        
+        ul li {
+            list-style: circle;
+            background-color: var(--color);
+            color: black;
+            list-style-position: inside;
+        }
+        
+        ul li {
+            border: 2px solid cornflowerblue;
+            padding: 3;
+            margin: 3px;
+        }
+        
+        ul li:first-child {
+            background-color: rgb(154, 146, 146);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>home</li>
+            <li>abt</li>
+            <li>contact</li>
+        </ul>
+    </div>
+    <div class="con">Lorem ipsum dolor porem33 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, doloribus voluptate beatae deleniti ipsa animi nulla at maiores, sequi velit, ut praesentium nisi. Exercitationem, veniam rem. Culpa beatae quia, dicta laboriosam
+        eveniet perspiciatis!></div>
+</body>
+
+</html>
