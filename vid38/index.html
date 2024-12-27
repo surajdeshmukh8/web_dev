@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .surr {
+            height: 80vh;
+            display: flex;
+            margin: 4px;
+            border: 2px solid red;
+            flex-wrap: wrap;
+            /* flex-flow: column;*/
+            justify-items: center;
+            align-items: center;
+        }
+        
+        .dkh {
+            height: 90px;
+            width: 90px;
+            background-color: blueviolet;
+            margin: 4px;
+        }
+        
+        .o1 {
+            flex-grow: 5;
+        }
+        
+        .o2 {
+            flex-grow: 5;
+        }
+        
+        .o2 {
+            flex-shrink: 5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="surr">
+        <div class="dkh">1</div>
+        <div class="dkh o3">2</div>
+        <div class="dkh o1">3</div>
+        <div class="dkh">4</div>
+        <div class="dkh o2">5</div>
+        <div class="dkh">6</div>
+        <div class="dkh">7</div>
+        <div class="dkh o3">8</div>
+        <div class="dkh">9</div>
+        <div class="dkh"></div>
+        <div class="dkh"></div>
+        <div class="dkh"></div>
+        <div class="dkh"></div>
+        <div class="dkh"></div>
+        <div class="dkh"></div>
+        <div class="dkh"></div>
+        <div class="dkh"></div>
+        <div class="dkh"></div>
+    </div>
+</body>
+
+</html>
