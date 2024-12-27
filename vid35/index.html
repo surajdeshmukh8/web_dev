@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectores
+
+    </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <style>
+        * {
+            padding: 2px;
+            margin: 10px;
+            background-color: aliceblue;
+            color: black;
+            font-weight: 00;
+            font-size: 14px;
+            font-family: "Poppins", serif;
+        }
+        
+        .sur :first-child {
+            background-color: rgb(189, 189, 27);
+        }
+        
+        .sur :nth-last-child(1) {
+            background-color: blue;
+        }
+        
+        .sur :nth-child(even) {
+            color: red;
+        }
+        
+        [data-color="primary"] {
+            color: rgb(255, 255, 255);
+        }
+        
+         ::first-line {
+            color: rgb(220, 20, 164);
+        }
+        
+         ::selection {
+            color: greenyellow;
+            background-color: black;
+        }
+        
+        .car1 {
+            font-family: "Poppins", serif;
+            font-weight: 800;
+            font-style: italic;
+        }
+        
+        .car {
+            padding-top: 23px;
+        }
+        
+        .sur::before {
+            content: "123";
+            color: rgb(66, 14, 223);
+            font-weight: 900;
+        }
+        
+        .sur::after {
+            content: "123";
+            color: rgb(64, 0, 255);
+        }
+        
+        .sur ::first-letter {
+            font-size: 18px;
+            color: rgb(70, 70, 8);
+        }
+        
+         :nth-last-child(2) {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sur">
+        <div class="car" data-color=primary>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iste facilis eveniet nam porro, alias tempore ipsa. Enim possimus id optio iure pariatur ut officiis animi neque nam quas dignissimos, adipisci aliquam
+            dolorum maxime, nobis doloremque et ipsam ab asperiores labore, fuga libero. Optio?</div>
+        <div class="car">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iste facilis eveniet nam porro, alias tempore ipsa. Enim possimus id optio iure pariatur ut officiis animi neque nam quas dignissimos, adipisci aliquam
+            dolorum maxime, nobis doloremque et ipsam ab asperiores labore, fuga libero. Optio?</div>
+        <div class="car">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iste facilis eveniet nam porro, alias tempore ipsa. Enim possimus id optio iure pariatur ut officiis animi neque nam quas dignissimos, adipisci aliquam
+            dolorum maxime, nobis doloremque et ipsam ab asperiores labore, fuga libero. Optio?</div>
+        <div class="car car1">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iste facilis eveniet nam porro, alias tempore ipsa. Enim possimus id optio iure pariatur ut officiis animi neque nam quas dignissimos, adipisci aliquam
+            dolorum maxime, nobis doloremque et ipsam ab asperiores labore, fuga libero. Optio?</div>
+        <div class="car">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iste facilis eveniet nam porro, alias tempore ipsa. Enim possimus id optio iure pariatur ut officiis animi neque nam quas dignissimos, adipisci aliquam
+            dolorum maxime, nobis doloremque et ipsam ab asperiores labore, fuga libero. Optio?</div>
+        <div class="car">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iste facilis eveniet nam porro, alias tempore ipsa. Enim possimus id optio iure pariatur ut officiis animi neque nam quas dignissimos, adipisci aliquam
+            dolorum maxime, nobis doloremque et ipsam ab asperiores labore, fuga libero. Optio?</div>
+        <div class="car">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iste facilis eveniet nam porro, alias tempore ipsa. Enim possimus id optio iure pariatur ut officiis animi neque nam quas dignissimos, adipisci aliquam
+            dolorum maxime, nobis doloremque et ipsam ab asperiores labore, fuga libero. Optio?</div>
+
+    </div>
+</body>
+
+</html>
