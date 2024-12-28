@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        body {
+            background-color: rgb(15, 50, 81);
+        }
+        
+        .sur {
+            height: 80vh;
+            width: 80vw;
+            display: grid;
+            border: 2px solid;
+            justify-items: center;
+            align-items: center;
+            grid-template-columns: 120px 100px;
+            grid-template-rows: 150px 100px 100px;
+            grid-template-columns: repeat(5, minmax(100px, 2fr));
+        }
+        
+        .sd {
+            margin: 10px;
+            height: 80px;
+            width: 80px;
+            border: 2px solid;
+            background-color: aliceblue;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sur">
+        <div class="sd">1</div>
+        <div class="sd">2</div>
+        <div class="sd">3</div>
+        <div class="sd">4</div>
+        <div class="sd">5</div>
+        <div class="sd">6</div>
+        <div class="sd">7</div>
+
+    </div>
+</body>
+
+</html>
