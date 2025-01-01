@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: bisque;
+            width: 80vw;
+            height: 80vh;
+        }
+        
+        .box {
+            height: 50px;
+            width: 50px;
+            background-color: blueviolet;
+            animation: harryKaAnimation 2s ease-in-out 3s 1;
+            animation-delay: 1s;
+            animation-direction: reverse;
+            animation-play-state: paused;
+        }
+        
+        @keyframes harryKaAnimation {
+            from {
+                background-color: red;
+            }
+            to {
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            box
+
+        </div>
+    </div>
+
+</body>
+
+</html>
