@@ -102,6 +102,7 @@
               color: white;
               font-weight: 700;
               margin: 2px;
+              text-decoration: none;
           }
           
           .green {
@@ -116,6 +117,7 @@
               color: white;
               font-weight: 700;
               margin: 2px;
+              text-decoration: none;
           }
           
           .class2 {
@@ -125,7 +127,6 @@
           .items {
               padding: 10px;
               border: none;
-              text-decoration: none;
               background: #f9f9f9;
               border-radius: 12px;
           }
@@ -134,4 +135,9 @@
               font-weight: 700;
               text-align: center;
               padding-bottom: 36px;
+          }
+          
+          div button a {
+              color: white;
+              text-decoration: none;
           }
